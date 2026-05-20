@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DB393BF-1320-5BBD-90F1-55B5C49E7E78" name="Klienci">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>05A4E904-5DCD-A8C0-8814-2202BECABF7E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_klienta" id="0F3A7913-89B4-8D9F-BB69-6D3524FEC01A">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>F9FC7348-B237-09ED-F296-87F06B2E8B2E</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="1A36F78B-4EE6-4161-224C-32D91F218DDC">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>1F4129F9-B13E-8DBE-B48A-2E272D3C985F</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A962782A-651F-E936-0B70-23EE4D657113">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>CA8226F7-C483-7478-F049-0FDE3E41B589</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79DB54A4-0942-DAA8-A46E-9C53DDEE6033" name="Klienci_PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>7B5DAF7C-7D8B-CCEC-1CE7-7AD7D71919DF</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3A7913-89B4-8D9F-BB69-6D3524FEC01A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F72C007-2224-AE55-A8EB-7AC001DCA555" name="Producenci">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>B225F9A0-608C-327A-194E-867528C63897</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producenta" id="DAC0FC63-7BE8-1171-9155-2FEE9DC04A34">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>DC5872AF-5AD7-0FBA-0805-DF0155EF70D5</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_firmy" id="BB490379-534D-A523-4B3C-E58A34B9CD19">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>E02897F8-B54C-A5AD-540F-5E6640FF055D</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11116BFC-4232-4058-EF11-05FE9DB8CCE4" name="Producenci_PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>8F3655B9-38AC-F04C-4FE0-00B4D661BCCE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAC0FC63-7BE8-1171-9155-2FEE9DC04A34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

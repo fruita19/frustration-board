@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34B9AFBE-3800-20A8-EC38-9B2D98107EF5" containerWithKeyObject="3BBD5B73-103A-D36E-C8F1-6F31DABF70CB" localFKIndex="A3E457CA-A744-571B-64A0-69B9B4CD4903" name="Pozycje__Zamówienia_Zamówienia_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>004802C9-F631-A20F-A7D8-BAE8BD5D6BAB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Zamówienia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4A00E59C-21D7-6EB2-6031-966C8907CA0F</referredTableID>
+<keyObject>B22651E4-1AE3-7BB9-4433-6975064D4879</keyObject>
+<referredKeyID>B22651E4-1AE3-7BB9-4433-6975064D4879</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_zamowienia,Klienci_id_klienta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

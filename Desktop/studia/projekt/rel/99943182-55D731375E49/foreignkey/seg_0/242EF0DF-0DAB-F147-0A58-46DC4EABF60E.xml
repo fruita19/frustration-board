@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="242EF0DF-0DAB-F147-0A58-46DC4EABF60E" containerWithKeyObject="89DD054E-3CD1-AFD6-C4AB-AD7C064B2C91" localFKIndex="2E369175-9C15-0E90-F3A5-76061193A308" name="Relation_15_Pozycje__Zamówienia_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>4FF2D94B-E7B9-5205-345F-0E12DDF2BA29</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<referredTableLongName>Pozycje__Zamówienia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3BBD5B73-103A-D36E-C8F1-6F31DABF70CB</referredTableID>
+<keyObject>6E4AD25C-D88D-D326-F967-97BDDEEFA61C</keyObject>
+<referredKeyID>6E4AD25C-D88D-D326-F967-97BDDEEFA61C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pozycji,Zamówienia_id_zamowienia,Zamówienia_id_klienta1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAAF1942-801B-8C2D-B645-8FC1A6262961" name="Produkty">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 20:55:06 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produktu" id="38DBE180-99C6-1F6A-6018-CA749042ADDB">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 20:55:23 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa_produktu" id="4CA70A0C-0772-9D4C-3DC3-C38EAEB9228B">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 20:55:37 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_netto" id="FA664693-59FA-9E1E-F829-B259719B3468">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 20:56:26 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producenta" id="B35EC2DB-7C66-6F3D-6428-3BDE58319973">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 20:56:52 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategorii" id="7CCE9B61-08E9-71F9-73F8-655CEF12E9AE">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:17:41 UTC</createdTime>
+<generatorID>169EC58D-BE1C-2985-1FB1-2C993509A1BE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<referedAttribute>FBF3AFB3-8E29-903B-5693-97B719FE6827</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producenta1" id="B81C019B-9731-79A1-F277-016FF1927E97">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:17:53 UTC</createdTime>
+<generatorID>AE408E7C-EB30-190A-702B-93A4BA138342</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<referedAttribute>DC5872AF-5AD7-0FBA-0805-DF0155EF70D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7F64878-BE82-F3F6-1F8C-49388E7675B7" name="Produkty PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 20:57:32 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38DBE180-99C6-1F6A-6018-CA749042ADDB</attributeRef>
+<attributeRef>7CCE9B61-08E9-71F9-73F8-655CEF12E9AE</attributeRef>
+<attributeRef>B81C019B-9731-79A1-F277-016FF1927E97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

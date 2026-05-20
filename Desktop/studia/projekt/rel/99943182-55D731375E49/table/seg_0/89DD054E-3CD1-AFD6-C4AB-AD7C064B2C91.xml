@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89DD054E-3CD1-AFD6-C4AB-AD7C064B2C91" name="Relation_15">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produkty_id_produktu" id="F1EA1356-364B-50AA-478A-D22ABF66F44B">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCF9F855-A2E3-4165-AFE8-F05EC5721E41" referredColumn="34FA71AE-3AC6-DB27-568B-550EA4D7A0A4"/>
+</associations>
+</Column>
+<Column name="Produkty_Kategorie_id_kategorii" id="15B9696A-CBE7-06A9-BC80-D96A3400974C">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCF9F855-A2E3-4165-AFE8-F05EC5721E41" referredColumn="6952B8C2-676C-7972-0B58-9D8B3B5EBA21"/>
+</associations>
+</Column>
+<Column name="Produkty_id_producenta1" id="E73676CF-B58C-FF88-96BF-0FD8C9588EB6">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCF9F855-A2E3-4165-AFE8-F05EC5721E41" referredColumn="AE463983-57BB-138C-AD02-2AD8B6F79DBD"/>
+</associations>
+</Column>
+<Column name="Pozycje__Zamówienia_id_pozycji" id="099783B7-8293-24F0-9DFF-A4E3121A3F64">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="242EF0DF-0DAB-F147-0A58-46DC4EABF60E" referredColumn="296F570A-7A28-D679-819F-AFFFD67FB3A0"/>
+</associations>
+</Column>
+<Column name="Pozycje__Zamówienia_id_zamowienia" id="674EB16C-8CAE-FBD3-E065-8D23A93C8E58">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="242EF0DF-0DAB-F147-0A58-46DC4EABF60E" referredColumn="C6FA5E66-078C-6F16-FE80-A89FB6491454"/>
+</associations>
+</Column>
+<Column name="Pozycje__Zamówienia_id_klienta1" id="2F56A304-DF78-9ABE-7E35-A67EF012CD51">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="242EF0DF-0DAB-F147-0A58-46DC4EABF60E" referredColumn="F9511C2C-48AC-965C-0429-40DA3F45D16B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F36C3DB-5237-65FA-1943-A374AEADACCB" name="Relation_15_PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1EA1356-364B-50AA-478A-D22ABF66F44B"/>
+<colUsage columnID="15B9696A-CBE7-06A9-BC80-D96A3400974C"/>
+<colUsage columnID="E73676CF-B58C-FF88-96BF-0FD8C9588EB6"/>
+<colUsage columnID="099783B7-8293-24F0-9DFF-A4E3121A3F64"/>
+<colUsage columnID="674EB16C-8CAE-FBD3-E065-8D23A93C8E58"/>
+<colUsage columnID="2F56A304-DF78-9ABE-7E35-A67EF012CD51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54ED1243-71D8-A7AB-C939-50AFFA0225E7" name="Relation_15_Produkty_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>4FF2D94B-E7B9-5205-345F-0E12DDF2BA29</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1EA1356-364B-50AA-478A-D22ABF66F44B"/>
+<colUsage columnID="15B9696A-CBE7-06A9-BC80-D96A3400974C"/>
+<colUsage columnID="E73676CF-B58C-FF88-96BF-0FD8C9588EB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E369175-9C15-0E90-F3A5-76061193A308" name="Relation_15_Pozycje__Zamówienia_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>4FF2D94B-E7B9-5205-345F-0E12DDF2BA29</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="099783B7-8293-24F0-9DFF-A4E3121A3F64"/>
+<colUsage columnID="674EB16C-8CAE-FBD3-E065-8D23A93C8E58"/>
+<colUsage columnID="2F56A304-DF78-9ABE-7E35-A67EF012CD51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

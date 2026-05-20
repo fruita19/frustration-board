@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="389D746D-0D44-2912-3F88-70CDCFF0BFA7" name="Produkty">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>CAAF1942-801B-8C2D-B645-8FC1A6262961</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produktu" id="34FA71AE-3AC6-DB27-568B-550EA4D7A0A4">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>38DBE180-99C6-1F6A-6018-CA749042ADDB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa_produktu" id="EBCAE310-703E-3549-491D-CFF1FEB41DE5">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>4CA70A0C-0772-9D4C-3DC3-C38EAEB9228B</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena_netto" id="4378BBFB-4459-7529-0B1C-69B98F751D31">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>FA664693-59FA-9E1E-F829-B259719B3468</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_producenta" id="71A5FB44-1E5A-A0CC-7FB1-1DBFCFC3F9DC">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>B35EC2DB-7C66-6F3D-6428-3BDE58319973</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kategorie_id_kategorii" id="6952B8C2-676C-7972-0B58-9D8B3B5EBA21">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>7CCE9B61-08E9-71F9-73F8-655CEF12E9AE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6663C4A1-C038-BE2C-E963-CE15AA28A8EA" referredColumn="E002ED48-C544-DD4E-3A7D-E174F00CAB6C"/>
+</associations>
+</Column>
+<Column name="Producenci_id_producenta" id="AE463983-57BB-138C-AD02-2AD8B6F79DBD">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>B81C019B-9731-79A1-F277-016FF1927E97</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EAC101B-A102-FAB9-9BDA-03B4CDBAF383" referredColumn="DAC0FC63-7BE8-1171-9155-2FEE9DC04A34"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="993BBEC1-2753-216A-21E3-ADC0975C81B4" name="Produkty_PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>C7F64878-BE82-F3F6-1F8C-49388E7675B7</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FA71AE-3AC6-DB27-568B-550EA4D7A0A4"/>
+<colUsage columnID="6952B8C2-676C-7972-0B58-9D8B3B5EBA21"/>
+<colUsage columnID="AE463983-57BB-138C-AD02-2AD8B6F79DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E184DFF-1657-DEE5-F2A8-F69F1B1A0E7E" name="Produkty_Kategorie_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>169EC58D-BE1C-2985-1FB1-2C993509A1BE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6952B8C2-676C-7972-0B58-9D8B3B5EBA21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7698E310-B0F9-0A77-BC28-2977DAA8B43D" name="Produkty_Producenci_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>AE408E7C-EB30-190A-702B-93A4BA138342</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE463983-57BB-138C-AD02-2AD8B6F79DBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

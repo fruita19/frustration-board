@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D4EBC01-6969-1A45-2B9E-B0C65100C8DE" name="Pozycje_ Zamówienia">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:08:04 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pozycji" id="6B0864B2-C07B-0EDB-53D9-3B2D71FED961">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:08:23 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zamowienia" id="9AD3AC17-082C-5AA1-B8A5-351204518893">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:37:09 UTC</createdTime>
+<generatorID>004802C9-F631-A20F-A7D8-BAE8BD5D6BAB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<referedAttribute>1DA31B38-3B34-56A7-74F6-0CBAD55AD352</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_klienta1" id="CDD6B979-7817-64F4-AE8F-15312BF7C22A">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:37:09 UTC</createdTime>
+<generatorID>004802C9-F631-A20F-A7D8-BAE8BD5D6BAB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<referedAttribute>A4C2A229-03B0-38BD-3322-8FE05C336229</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F02D2045-4133-8588-261E-759A4EA8A2A5" name="Pozycje_ Zamówienia PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:08:38 UTC</createdTime>
+<ownerDesignName>projekt</ownerDesignName>
+<engineerTo>
+<item key="99943182-378D-A88B-ED97-55D731375E49" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B0864B2-C07B-0EDB-53D9-3B2D71FED961</attributeRef>
+<attributeRef>9AD3AC17-082C-5AA1-B8A5-351204518893</attributeRef>
+<attributeRef>CDD6B979-7817-64F4-AE8F-15312BF7C22A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BBD5B73-103A-D36E-C8F1-6F31DABF70CB" name="Pozycje__Zamówienia">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>6D4EBC01-6969-1A45-2B9E-B0C65100C8DE</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pozycji" id="296F570A-7A28-D679-819F-AFFFD67FB3A0">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>6B0864B2-C07B-0EDB-53D9-3B2D71FED961</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamówienia_id_zamowienia" id="C6FA5E66-078C-6F16-FE80-A89FB6491454">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>9AD3AC17-082C-5AA1-B8A5-351204518893</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34B9AFBE-3800-20A8-EC38-9B2D98107EF5" referredColumn="C18B9ECC-9338-F85D-4501-41EEDB18034B"/>
+</associations>
+</Column>
+<Column name="Zamówienia_id_klienta1" id="F9511C2C-48AC-965C-0429-40DA3F45D16B">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>CDD6B979-7817-64F4-AE8F-15312BF7C22A</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34B9AFBE-3800-20A8-EC38-9B2D98107EF5" referredColumn="9BBF45E4-18B4-F595-1FD3-02C98601BCE4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E4AD25C-D88D-D326-F967-97BDDEEFA61C" name="Pozycje__Zamówienia_PK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>F02D2045-4133-8588-261E-759A4EA8A2A5</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="296F570A-7A28-D679-819F-AFFFD67FB3A0"/>
+<colUsage columnID="C6FA5E66-078C-6F16-FE80-A89FB6491454"/>
+<colUsage columnID="F9511C2C-48AC-965C-0429-40DA3F45D16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3E457CA-A744-571B-64A0-69B9B4CD4903" name="Pozycje__Zamówienia_Zamówienia_FK">
+<createdBy>Adsmz</createdBy>
+<createdTime>2026-01-13 21:44:17 UTC</createdTime>
+<generatorID>004802C9-F631-A20F-A7D8-BAE8BD5D6BAB</generatorID>
+<ownerDesignName>projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6FA5E66-078C-6F16-FE80-A89FB6491454"/>
+<colUsage columnID="F9511C2C-48AC-965C-0429-40DA3F45D16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
