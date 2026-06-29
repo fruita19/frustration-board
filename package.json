@@ -1,0 +1,24 @@
+{
+  "name": "my_tanstack_start_app",
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "1.32.11",
+    "@tanstack/start": "1.32.11",
+    "postgres": "^3.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vinxi": "0.3.11"
+  },
+  "devDependencies": {
+    "@tanstack/router-generator": "1.32.11",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
